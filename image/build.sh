@@ -549,6 +549,9 @@ if ! eval_bool "$SKIP_SQLITE"; then
 	done
 fi
 
+### Set timezone to Taipei
+cp -f /usr/share/zoneinfo/Asia/Taipei /etc/localtime
+
 
 ### Finalizing
 
